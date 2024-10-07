@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon " type="x-icon" href="back123.jpg">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9809a8dad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Rahul jha-logos_white.png" class="logo"> -->
+                 <!-- <h4 style="color: black;">kajol</h4> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+              <P>Data Analyst</P>
+              <h1>Hi, i am <span>Kajol Jha</span></h1>
+             </div>
+        </div>
+    </div>
+    <!-- -------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="userkajol.jpg" >
+                </div>
+                 <div class="about-col-2">
+                  <h1 class="sub-title">About me</h1>
+                  <P>
+                    Hello, I'm Kajol Jha, a passionate Data Analyst based in Bangalore. With a year of hands-on experience from my internship, 
+                    I am dedicated to extracting valuable insights and making data-driven decisions to drive business success.
+                </P>
+                
+                <h3>Who I Am</h3>
+                <P>
+                    I am Kajol Jha, a budding professional in the field of Data Analysis. My one-year internship has honed my skills and fueled 
+                    my enthusiasm for transforming raw data into meaningful insights that help organizations achieve their goals.
+                </P>
+                
+                <h3>My Approach</h3>
+                <P>
+                    I believe in blending analytical rigor with business acumen. My approach to data analysis is not just about crunching numbers, 
+                    but also about understanding the story behind the data and how it can shape strategic decisions. From data cleaning to insightful 
+                    reporting, I am committed to driving actionable outcomes.
+                </P>
+                
+                <h3>Why Choose Me</h3>
+                <P>
+                    <strong>Experience:</strong> With a year of hands-on experience as a Data Analyst, I have been actively involved in analyzing large datasets, 
+                    building dashboards, and delivering insights that contribute to business growth.<br>
+                    <strong>Versatility:</strong> My expertise spans data visualization, statistical analysis, and report generation, making me a versatile professional 
+                    capable of handling diverse analytical challenges.<br>
+                    <strong>Innovation:</strong> I stay abreast of the latest analytical tools and techniques, ensuring that the solutions I create are both 
+                    contemporary and forward-thinking.
+                </P>
+                
+                <h3>Let's Connect</h3>
+                <P>
+                    I am eager to connect with professionals and explore opportunities for collaboration. If you have a project that could benefit from data-driven 
+                    insights or are interested in creating value from your data, let's connect!
+                </P>
+                
+                <P>Thank you for taking the time to explore my portfolio. I look forward to collaborating with you on impactful data projects.</P>
+                
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Excel</span><br>Advanced proficiency in Excel for data manipulation and analysis</li>
+                        <li><span>SQL</span><br>Experience in querying databases for data extraction and reporting</li>
+                        <li><span>Data Visualization</span><br>Creating insightful dashboards using tools like Power BI and Tableau</li>
+                        <li><span>Python</span><br>Python programming for data analysis and automation tasks</li>
+                        <li><span>Machine Learning</span><br>Basic understanding of ML algorithms for predictive modeling</li>
+                        <li><span>Statistics</span><br>Proficiency in statistical methods for data analysis and interpretation</li>
+                    </ul>
+                </div>
+                
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Intern at XYZ Analytics Firm<br>Analyzed and visualized data for business insights</li>
+                        <li><span>2022</span><br>Data Analyst Intern at ABC Solutions<br>Worked on data cleaning and statistical reporting</li>
+                    </ul>
+                </div> -->
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Data Analytics Training at coursera </li>
+                        <li><span>2022</span><br>BCA in Computer Science Engineering from GNIT, Bangalore</li>
+                        <li><span>2014</span><br>+2 from srijanaa higher secondary school</li>
+                        <li><span>2012</span><br>10th from happyland higher secondary school</li>
+                    </ul>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Data Analysis</h2>
+                    <P>Welcome to Kajol Jha Data Analysis Services, where data meets insights. I provide comprehensive data analysis solutions to help you make informed decisions, optimize processes, and drive business growth.</P>
+                    <a href="#" >learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Visualization</h2>
+                    <P>My Data Visualization services transform complex datasets into visually engaging and easy-to-understand dashboards, enabling you to uncover patterns and trends that drive strategic decisions.</P>
+                    <a href="#" >learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Predictive Analytics</h2>
+                    <P>I offer Predictive Analytics services using machine learning models to forecast trends and future outcomes, helping you stay ahead of the competition by leveraging your data for actionable insights.</P>
+                    <a href="#" >learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ---------------p0ortfolio -->
+     <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" >
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" >
+                    <div class="layer">
+                        <h3>online shoping app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>  -->
+    <!-- ---------------contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kajolnjha@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+91 8197413578</p>
+                     <div class="social-icons">
+                        <a href="https://www.facebook.com/kajol.jha.75"><i class="fa-brands fa-facebook "></i></a>
+                        <!-- <a href="https://x.com/rjha72240?t=2pQtBrlxT8ax4TLrFevOJg&s=09"><i class="fa-brands fa-twitter-square "></i></a> -->
+                        <a href="https://www.instagram.com/kajolnjha?igsh=aG93c3AxNjM3OGgw"><i class="fa-brands fa-instagram "></i></a>
+                        <!-- <a href="https://www.linkedin.com/in/rahul-jha-556505272/"><i class="fa-brands fa-linkedin "></i></a> -->
+                     </div>
+                     <!-- <a href="CVup.docx" download class="btn btn2">Download cv</a> -->
+
+                </div>
+                <!--  <div class="contact-right"> 
+                     ----------form 
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span> 
+                </div> -->
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @kajol jha    <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+
+    
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwUmkJRF7ngPVaV_nvZ1nITMtQZoVSSC6YohoH066e6whq9FFjNAjOaIJIUU9LbOOlPhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
